@@ -42,7 +42,7 @@ Jason
     }
 
 ```http
- PUT /api/book/updateBook/{isbn}
+PUT /api/book/updateBook/{isbn}
 ```
 
 - Description: Update an existing book.
@@ -54,14 +54,14 @@ Jason
   }
 
 ```http
- DELETE /api/book/removeBook/{isbn}
+DELETE /api/book/removeBook/{isbn}
 ```
 
  Remove book
 
 #### Author
 ```http
- POST /api/author/addAuthor
+POST /api/author/addAuthor
 ```
 - Description: Creates a new author.
 Jason {
@@ -69,7 +69,7 @@ Jason {
     "biography": "Author Biography"
    }
 ```http
-  PUT /api/author/updateAuthor?id={author_id} 
+PUT /api/author/updateAuthor?id={author_id}
 ```
 - Description : Updates an existing author with the specified ID.
 
@@ -80,7 +80,7 @@ RequestBody
 }
 
 ```http
- GET /api/author/getAuthorById/{author_id}
+GET /api/author/getAuthorById/{author_id}
 ```
 Description: Retrieves the author with the specified ID.
 ```http
