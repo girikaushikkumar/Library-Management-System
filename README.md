@@ -22,7 +22,7 @@ Once the application is running, you can interact with it using RESTful endpoint
 ### Endpoints
 #### Books
 ```http
- GET /api/book/getAllbooks
+GET /api/book/getAllbooks
 ```
  Description: Retrieve all books.
  ```http
